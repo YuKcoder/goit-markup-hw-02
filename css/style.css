@@ -5,7 +5,10 @@
   --dark-color: #000000;
   --dark-bg-color: #2f303a;
   --light-bg-color: #f5f4fa;
+  --light-text-color: #ffffff;
 }
+
+/* Глобальные стили */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -47,6 +50,10 @@ body {
   color: var(--second-color);
 }
 
+/* Стили для index.html */
+
+/* Шапка */
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -58,4 +65,76 @@ body {
 
 .logo-text {
   color: var(--accent-color);
+}
+
+.header-items,
+.header-contacts {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-items {
+  color: var(--second-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: var(--dark-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--light-text-color);
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--light-text-color);
+  background-color: var(--accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+/* Наши преимущества */
+
+.advantages-items {
+  line-height: 1.71;
+}
+
+.advantage-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--second-color);
+}
+
+/* Наша команда */
+
+.team {
+  background-color: var(--light-bg-color);
+}
+
+.team-items {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-member {
+  font-weight: 500;
+  color: var(--second-color);
 }
