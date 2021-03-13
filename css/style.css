@@ -47,6 +47,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--second-color);
 }
 
@@ -124,7 +125,9 @@ body {
 
 .advantage-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-color);
 }
@@ -143,6 +146,10 @@ body {
 
 .team-member {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--second-color);
 }
 
@@ -160,6 +167,7 @@ body {
 
 .footer-contacts {
   line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Cтили для portfolio.html */
@@ -167,8 +175,14 @@ body {
 /* Кнопки фильтра в портфолио */
 
 .portfolio-btn {
-  background-color: var(--light-bg-color);
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+  background-color: var(--light-bg-color);
 }
 
 .portfolio-btn:hover,
