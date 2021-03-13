@@ -160,3 +160,31 @@ body {
 }
 
 /* Cтили для portfolio.html */
+
+/* Кнопки фильтра в портфолио */
+
+.portfolio-btn {
+  background-color: var(--light-bg-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--light-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* Оглавление и текст в блоках портфолио */
+
+.portfolio-item {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-color);
+}
