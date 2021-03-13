@@ -50,6 +50,11 @@ body {
   color: var(--second-color);
 }
 
+.hero,
+.footer {
+  background-color: var(--dark-bg-color);
+}
+
 /* Стили для index.html */
 
 /* Шапка */
@@ -78,11 +83,11 @@ body {
   color: var(--second-color);
 }
 
-/* Герой */
-
-.hero {
-  background-color: var(--dark-bg-color);
+.header-items .link.current {
+  color: var(--accent-color);
 }
+
+/* Герой */
 
 .hero-title {
   font-weight: 900;
@@ -95,6 +100,7 @@ body {
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -102,6 +108,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--light-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -141,10 +148,6 @@ body {
 
 /* Подвал */
 
-.footer {
-  background-color: var(--dark-bg-color);
-}
-
 .logo-footer {
   color: var(--light-text-color);
 }
@@ -165,6 +168,7 @@ body {
 
 .portfolio-btn {
   background-color: var(--light-bg-color);
+  font-family: inherit;
 }
 
 .portfolio-btn:hover,
